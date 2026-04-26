@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+}
+#header{
+  width: 100%;
+  height:70px;
+  background-color: rgb(0, 60, 255);
+ display: flex;
+ justify-content: center;
+  align-items: center;
+}
+
+#menubar{
+  width: 20%;
+  height:100vh;
+  background-color: rgb(75, 72, 73);
+}
+
+#content_area{
+  width: 80%;
+  height:100vh;
+  background-color: rgb(253, 252, 255);
+}
+
+.count{
+  width: 200px;
+  height:120px;
+  background-color: beige;
+  margin: 100px auto;
+  border-radius: 5px;
+  text-align: center;
+  color:blue;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.count  p {
+    margin-top: 20px;
+}
