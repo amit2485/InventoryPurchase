@@ -56,6 +56,32 @@ Spring Boot Backend
        ▼
      MySQL
 ```
+## 📸 Application Screenshots
+
+### Dashboard
+
+The dashboard provides an overview of products, suppliers and purchase records.
+
+![Inventory Purchase Dashboard](screenshots/dashboard.png)
+
+### Product Management
+
+Manage product information including product name, category, price and available quantity.
+
+![Product Management](screenshots/product-management.png)
+
+### Purchase Management
+
+Record purchase transactions including supplier, product, purchase price, quantity and purchase date.
+
+![Purchase Management](screenshots/purchase-management.png)
+
+### Supplier Management
+
+Manage supplier information including name, address and contact details.
+
+![Supplier Management](screenshots/supplier-management.png)
+
 
 ## 📂 Project Structure
 
@@ -65,8 +91,16 @@ InventoryPurchase/
 ├── frontend/
 │   └── React.js application
 │
-└── backend/
-    └── Spring Boot application
+├── backend/
+│   └── Spring Boot application
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── product-management.png
+│   ├── purchase-management.png
+│   └── supplier-management.png
+│
+└── README.md
 ```
 
 ## 🚀 Getting Started
